@@ -17,3 +17,24 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+class Vehicle: #top level
+    pass
+
+class GroundVehicle(Vehicle): #attrs from Vehicle
+    pass
+
+class Car(GroundVehicle): #attrs from Vehicle & GroundVehicle
+    pass
+
+class Motorcycle(GroundVehicle): #attrs from Vehicle & GroundVehicle
+    pass
+
+class FlightVehicle(Vehicle): #attrs from Vehicle 
+    pass
+
+class Airplane(FlightVehicle): #attrs from Vehicle & FlightVehicle
+    pass
+
+class Starship(FlightVehicle): #attrs from Vehicle & FlightVehicle
+    pass
